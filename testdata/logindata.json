@@ -1,0 +1,47 @@
+{
+
+     "BlankUsernamePassword":
+        {
+             "Username": "",
+             "Password": ""
+        },
+     "InvalidUserLogin":
+       {
+          "Username":"Admins",
+          "Password": "admin123"
+       },
+
+      "InvalidPasswordLogin":
+      {
+          "Username":"admin",
+          "Password" : "Admin123"
+
+      },
+
+      "UsernotRegistered":
+      {
+        "Username": "Testing@testing.com",
+        "Password":"Testing65478"
+      },
+
+      "SqlinjectionUsername":
+        {
+         "Username": "' OR '1'='1",
+         "Password": "Admin123"
+
+        },
+
+       "SqlinjectionPassword":
+        {
+          "Username": "Admin",
+          "Password": "' OR '1'='1"
+        },
+       "ValidCredentials":
+          {
+
+        "Username": "Admin",
+        "Password": "admin123"       
+
+          }
+}
+
